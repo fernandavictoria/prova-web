@@ -1,0 +1,22 @@
+.tabela{
+  align-items: center;
+}
+
+.tabela table{
+    border-collapse: collapse;
+    width: 70%;
+    height:70%;
+    font-size: larger;
+}
+
+.tabela table tr td, .tabela table tr th{
+    border: 0.1rem solid black;
+    margin: 0rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.tabelas .itens{
+    text-align: left;
+    padding: 1rem;
+}

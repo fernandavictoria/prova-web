@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!--o cabeçalho vai aqui-->
+            <nav class="opcoes">
+                <ul>
+                    <li>
+                        <a href="index.html">Ínicio</a> 
+                        <!--sao as opçoes do cabeçalho, clica em inicio e é redirecionado pra index-->
+                    </li>
+                </ul>
+            </nav>
+             
+     </header>
+
+     <main class="tabela">
+        <table>
+            <caption>Curso</caption>
+            <thead> <!--thead é usado como o head de uma tabela-->
+                <tr> 
+                    <th>Área</th> <!--th é usado dentro do head da tabela-->
+                    <th>Ano</th>
+                    <th>Disciplina</th>
+                    <th>1a Série</th>
+                    <th>2a Série</th>
+                    <th>3a Série</th>
+                </tr>
+                <tr>
+                    <td class="parte" colspan="6">Parte específica</td> <!--6 pq tem seis colunas-->
+                </tr>
+            </thead>
+            <tbody> <!--Tbody é o corpo-->
+                <tr>
+                    <td rowspan="11"> Técnica</td>
+                    <td rowspan="3">1° Ano</td>
+                    <td class="itens"> Banco de Dados</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td class="itens">Fundamentos de Informática</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td class="itens">Programação I </td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                </tr>
+                <tr>
+                    <td rowspan="4"> 2° ano</td>
+                    <td class="itens">Aplicaçoes Web I</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td>0</td>
+                <tr>
+                    <td class="itens">Estrutura de Dados</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td class="itens">Programação II</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td class="itens">Redes de computadores</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td rowspan="4"> 3° ano</td>
+                    <td class="itens">Aplicaçoes Web II</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td class="itens">Aplicações Movéis</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td class="itens">Engenharia de Software</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td class="itens">Montagem e Manutenção de Computadores</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                </tr>
+            </tbody>    
+            <tfoot>
+                <tr>
+                    <td class="neg" colspan="3">Total</td>
+                    <td class="neg">8</td>
+                    <td class="neg">12</td>
+                    <td class="neg">16</td>
+                </tr>
+    
+            </tfoot>
+    
+        </table>
+
+
+        <!------------------------------------------------------------------------------------------------>
+        <!--tabela simples-->
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Paula</td>
+                    <td>paula@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Fernanda</td>
+                    <td>fernanda@gmail.com</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>2</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br>
+        <br>
+        <br>
+    
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td colspan="2">1</td> 
+                <td rowspan="2">2</td> 
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td>A</td>
+                <td colspan="2">B</td>
+                <td rowspan="3">C</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>E</td>
+                <td rowspan="2">F</td>
+            </tr>
+            <tr>
+                <td colspan="2">G</td>
+            </tr>
+            <tr>
+                <td colspan="4">H</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td rowspan="4">ROSA</td>
+                <td colspan="4">ROXO</td>
+            </tr>
+            <tr>
+                <td>AZUL</td>
+                <td colspan="2">AMARELO</td>
+                <td>CIANO</td>
+            </tr>
+            <tr>
+                <td colspan="2">VERDE</td>
+                <td colspan="2">VERMELHO</td>
+            </tr>
+            <tr>
+                <td>PÚRPURA</td>
+                <td>MARROM</td>
+                <td>LARANJA</td>
+                <td>PRETO</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td colspan="6">Fernanda</td>
+            </tr>
+            <tr>
+                <td>Giovanna</td>
+                <td colspan="4">Morgana</td>
+                <td rowspan="3">Ágatha</td>
+            </tr>
+            <tr>
+                <td colspan="2">Laura</td>
+                <td>Lisa</td>
+                <td colspan="2">Jennie</td>
+            </tr>
+            <tr>
+                <td>Luana</td>
+                <td>Luna</td>
+                <td>Marianna</td>
+                <td>Isabely</td>
+            </tr>
+        </table>
+    
+
+     </main>
+
+     <footer>
+
+     </footer>
+    
+</body>
+</html>
